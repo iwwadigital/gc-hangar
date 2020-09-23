@@ -1,0 +1,13 @@
+$color-primary: #265073;
+$color-primary-dark: darken($color-primary, 10%);
+$color-secondary: hsl(hue($color-primary), 30%, 50%);
+// $color-secondary: #5982a6;
+$color-secondary-dark: darken($color-secondary, 10%);
+
+$positive: $color-primary;
+$positive-darker: $color-primary-dark;
+$stable: $color-secondary;
+$stable-darker: $color-secondary-dark;
+
+$calm: #204da4; // cor do switch da seleção de comentários
+$assertive: #ef473a;
